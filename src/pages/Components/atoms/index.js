@@ -1,3 +1,4 @@
 import Button from './Button';
+import Ti from './TextInput';
 
-export { Button };
+export { Button, Ti };

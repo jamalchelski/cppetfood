@@ -9,7 +9,8 @@ const Login = () => {
     return (
         <View style={styles.wrapper.page}>
             <View style={styles.wrapper.logo}>
-                <Image source={logo} style={styles.wrapper.logo} />
+                <Image source={logo} style={styles.wrapper.logo
+                } />
             </View>
             <Text style={styles.text.text_desc}>Masukan NIP dan Password anda</Text>
             <Text style={{ marginBottom: 23 }}>NIP</Text>

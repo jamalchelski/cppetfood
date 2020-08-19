@@ -9,12 +9,18 @@ const Stack = createStackNavigator();
 const Router = () => {
     return (
         <Stack.Navigator>
-            <Stack.Screen name="Splash" component={Splash} />
+            <Stack.Screen name="Splash" component={Splash} options={{
+                headerShown: false,
+            }} />
             <Stack.Screen name="Login" component={Login} options={{
                 headerShown: false,
             }} />
-            <Stack.Screen name="Home" component={Home} />
-            <Stack.Screen name="List" component={List} />
+            <Stack.Screen name="Home" component={Home} options={{
+                headerShown: false,
+            }} />
+            <Stack.Screen name="List" component={List} options={{
+                headerShown: false,
+            }} />
         </Stack.Navigator>
     );
 }
