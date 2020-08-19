@@ -5,7 +5,7 @@ import { View, Text } from 'react-native';
 const Splash = ({ navigation }) => {
     useEffect(() => {
         setTimeout(() => {
-            navigation.replace('Home')
+            navigation.replace('Login')
         }, 4000)
     })
     return (

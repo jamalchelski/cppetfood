@@ -1,6 +1,5 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import { TextInput } from 'react-native-gesture-handler';
 import ActionButton from '../Login/ActionButton';
 import { Colors } from '../../utils/colors';
 import { Ti } from '../Components';
