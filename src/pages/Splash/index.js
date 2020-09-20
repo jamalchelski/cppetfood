@@ -18,3 +18,4 @@ export default Splash;
 
 // "useeffect" digunakn untuk memberikan time out perpindahan screen , dari screen Splash ke Screen Login
 // "navigation.replace('Login')" digunakan untuk perpindahan antar halaman menggunakan stack navigator
+// perlu penambahan client
